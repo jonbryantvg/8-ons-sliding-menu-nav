@@ -20,8 +20,6 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
     
-    <content src="index.html" />
-    
     <preference name="permissions"                value="none"/>
     
 	<preference name="phonegap-version"           value="3.5.0" />          <!-- all: current version of PhoneGap -->
@@ -32,7 +30,7 @@
     
     <!-- Plugins -->
 
-    <!-- Core plugins -->
+    <!-- Core plugins - ->
     <gap:plugin name="org.apache.cordova.battery-status" />
     <!--gap:plugin name="org.apache.cordova.camera" /-->
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -50,7 +48,7 @@
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.vibration" />    
+    <gap:plugin name="org.apache.cordova.vibration" /-->    
     
     
     <!-- Android -->
@@ -100,4 +98,8 @@
     <preference name="monaca:targetFamilyiPhone" value="1" />
     <preference name="monaca:targetFamilyiPad" value="1" />
     <preference name="monaca:DisableCookie" value="false" />
+    
+    
+    <!-- Windows Phone -->
+    <icon src="www/images/Icon.png" gap:platform="winphone" />
 </widget>
