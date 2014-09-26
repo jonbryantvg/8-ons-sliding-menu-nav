@@ -14,13 +14,18 @@
     <link rel="stylesheet" href="css/style.css">
     <script>
         ons.bootstrap();
-        ons.disableAutoStatusBarFill();  // (Monaca enables StatusBar plugin by default)
+        
+        
+        ons.ready(function() {
+		  var elm = $("<ons-sliding-menu var='app.slidingMenu' menu-page='menu.html' main-page='page1.html' side='left' type='overlay' max-slide-distance='200px'></ons-sliding-menu>");
+		  elm.appendTo($("body")); // Insert to the DOM first
+		  ons.compile(elm[0]); // The argument must be a HTMLElement object
+		});
+        
+        //ons.disableAutoStatusBarFill();  // (Monaca enables StatusBar plugin by default)
     </script>	
 		
     </head>
 <body>
-    <ons-sliding-menu var="app.slidingMenu" menu-page="menu.html" main-page="page1.html" side="left" type="overlay" max-slide-distance="200px">
-    </ons-sliding-menu>
-	<h1> test page</h1>
 </body>
 </html>
