@@ -1,0 +1,11 @@
+html, body, div {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.mymap {
+	height:vh;
+}
