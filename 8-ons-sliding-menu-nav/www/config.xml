@@ -6,7 +6,7 @@
 		version="1.0.0" >
 		
     <!-- versionCode is optional and Android only -->
-    <name>DemoVisioWeb WP test</name>
+    <name>DemoVisioWeb</name>
     
     <description>
     	Application that demonstrates Visioglobe's VisioWeb technology
