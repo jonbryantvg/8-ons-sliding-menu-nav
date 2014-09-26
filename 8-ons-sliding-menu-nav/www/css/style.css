@@ -3,9 +3,10 @@ html, body, div {
 }
 
 body {
-    margin: 5px;
+    margin: 0px;
 }
 
 .mymap {
-	height:vh;
+	height:100%;
+	height:calc(vh - 2px);
 }
